@@ -1,0 +1,84 @@
+<html>
+<head>
+    <title>Membuat Form Registrasi</title>
+</head>
+<body>
+    <center>
+    <table>
+    <caption><h2><font color="purple">Free Registration</font></h2></caption>
+        <tr>
+            <td>Nama</td>
+            <td>:</td>
+            <td><input type="text" size="25" name="nama"></td>
+        </tr>
+        <tr>
+            <td>Tgl Lahir</td>
+            <td>:</td>
+            <td>
+                <input type="text" size="4" name="tanggal"> /
+                <input type="text" size="6" name="bulan"> /
+                <input type="text" size="8" name="tahun">
+            </td>
+        </tr>
+        <tr>
+            <td>Alamat</td>
+            <td>:</td>
+            <td><textarea name="alamat" rows="3" cols="30"></textarea></td>
+        </tr>
+        <tr>
+            <td>Kota</td>
+            <td>:</td>
+            <td><input type="text" size="25" name="kota"></td>
+        </tr>
+        <tr>
+            <td>Pekerjaan</td>
+            <td>:</td>
+            <td>
+                <select name=pekerjaan>
+                    <option value="tani">Tani</option>
+                    <option value="wiraswasta">Wiraswasta</option>
+                    <option value="programmer">Programmer</option>
+                    <option value="lain">Lainnya</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Jenis</td>
+            <td rowspan="2">:</td>
+            <td rowspan="2"><input type="radio" name="sex" value="L">Laki-Laki  <input type="radio" name="sex" value="P">Perempuan </td>
+        </tr>
+        <tr>
+            <td>Kelamin</td>
+        </tr>
+        <tr>
+            <td>Hobby</td>
+            <td>:</td>
+            <td><input type="checkbox" name="hobby" value="read">Reading</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><input type="checkbox" name="hobby" value="sport">Sport</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><input type="checkbox" name="hobby" value="sing">Singing</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><input type="checkbox" name="hobby" value="travel">Traveling</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>
+                <input type="button" value="kirim">
+                <input type="reset" value="ulang">
+            </td>
+        </tr>
+    </table>
+    </center>
+</body>
+</html>
